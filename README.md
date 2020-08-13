@@ -4,7 +4,7 @@
 
 A Flutter application to generate morse code.
 
-## Screnshots
+## Screenshots
 
 >Design is work in progress. Screenshots showcase the current functionality.
 
