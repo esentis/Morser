@@ -79,8 +79,17 @@ class _MainScreenState extends State<MainScreen> {
         child: Center(
           child: Column(
             children: [
-              TextField(
-                controller: _textController,
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 15.0),
+                child: TextField(
+                  textAlign: TextAlign.center,
+                  controller: _textController,
+                  style: const TextStyle(
+                    fontSize: 25,
+                    fontWeight: FontWeight.bold,
+                    color: Color(0xff3b5249),
+                  ),
+                ),
               ),
               Text(
                 morseCode(morse),
