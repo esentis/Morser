@@ -96,6 +96,7 @@ class _MainScreenState extends State<MainScreen> {
                 style: const TextStyle(
                   fontSize: 25,
                   fontWeight: FontWeight.bold,
+                  color: Color(0xffff5722),
                 ),
               ),
             ],
